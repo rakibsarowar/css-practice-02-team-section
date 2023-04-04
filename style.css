@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Montserrat:wght@100;300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    height: 100vh;
+    width: 100vh;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    margin: 0 auto;
+
+}
+
+.card{
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    transition: background .8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.card0{
+    background: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center no-repeat;
+    background-size: 300px;
+}
+.card0:hover{
+    background: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) left center no-repeat;
+    background-size: 600px;
+}
+.card0:hover .fa{
+    opacity: 1;
+}
+
+.card1{
+    background: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center no-repeat;
+    background-size: 300px;
+}
+.card1:hover{
+    background: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) left center no-repeat;
+    background-size: 600px;
+
+}
+.card1:hover .fa{
+    opacity: 1;
+} 
+
+.card2{
+    background: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center no-repeat;
+    background-size: 300px;
+}
+.card2:hover{
+    background: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) left center no-repeat;
+    background-size: 600px;
+
+}
+.card2:hover .fa{
+    opacity: 1;
+} 
+h2{
+    font-family: 'Montserrat'; sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.fa{
+    opacity: 0;
+    transition: opacity 1s;
+}
+.icons{
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.border{
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    position: relative;
+    transition: border 1s;
+}
